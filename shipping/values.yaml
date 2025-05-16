@@ -3,3 +3,7 @@ image:
   tag: latest
   pullPolicy: IfNotPresent
 appMessage: "This is a Shipping Service"
+
+service:
+  type: ClusterIP
+  port: 80
